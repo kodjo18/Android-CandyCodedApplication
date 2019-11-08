@@ -21,6 +21,13 @@ public class InfoActivity extends AppCompatActivity {
         Picasso.with(this).
                 load(uri).
                 into(candyStoreImageView);
+//
+//        findViewById(R.id.text_view_address).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                createMapIntent(v);
+//            }
+//        });
 
 
     }
